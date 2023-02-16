@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 # Name: Guess-wifi-password.sh
 # Date: Thu Feb 16 22:39:46 WIB 2023
-# Copyright (c) 2023 t.me/space_button
+# Copyright (c) 2023 t.me/space_button a.k.a luisadha
 # License MIT
 
 #  set -xv #unhash this for debug
