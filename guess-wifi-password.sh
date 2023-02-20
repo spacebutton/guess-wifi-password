@@ -7,7 +7,7 @@
 #  set -xv #unhash this for debug
 
 declare -a scriptn=("$(basename $0)" "$(dirname $0)")
-declare -A version=([simple]='100' [detail]='v1.0.0' [default]='1.0.0')
+declare -A version=([simple]='101' [detail]='v1.0.1' [default]='1.0.1')
 if [ "$0" == "${scriptn[0]}" ]; then
 filename="bash $0"
 else
