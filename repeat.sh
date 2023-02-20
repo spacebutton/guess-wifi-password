@@ -1,8 +1,8 @@
 #!/usr/bin/bash
 # Usage :
 # 
-# ./repeat.sh 3 "hello.sh" 
-# Will repeat 3 times output from file "hello.sh"
+# ./repeat.sh 3 "guess-wifi-password.sh" 
+# Will repeat 3 times output from file "guess-wifi-password.sh"
 
 for (( start = 1; start <= $1; start++ ))
 do
