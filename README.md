@@ -23,3 +23,8 @@ Motivation :
 * Neighbor's wifi
 
 * https://www.google.com/amp/s/www.detik.com/edu/detikpedia/d-5758742/mengenal-huruf-konsonan-dan-bedanya-dengan-vokal-serta-diftong/amp
+
+Changelog:
+
++ Add script repeat.sh
++ Fix bug
