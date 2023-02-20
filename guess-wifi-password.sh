@@ -48,11 +48,11 @@ while getopts ":h:l:m:n:" flag
  do
 	case "$flag" in
 	h) echo "$(usage)"; exit 0;;
-	l) declare ll=$(echo "$(cons_rand)$(voc_rand)${13}l")
+	l) declare ll=$(echo "$(cons_rand)$(voc_rand)${13:-$OPTARG}l")
 	        echo "$ll${ll}"; exit 0;;
-	m) declare mm=$(echo "$(cons_rand)$(voc_rand)${14}m")
+	m) declare mm=$(echo "$(cons_rand)$(voc_rand)${14:-$OPTARG}m")
 	        echo "$mm${mm}"; exit 0;;
-	n) declare nn=$(echo "$(cons_rand)$(voc_rand)${15}n")
+	n) declare nn=$(echo "$(cons_rand)$(voc_rand)${15:-$OPTARG}n")
 		echo "$nn${nn}"; exit 0;;
 	?) echo "$0: options not recognized! or require more arguments after -$OPTARG"; exit 1;;
 	esac
