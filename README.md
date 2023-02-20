@@ -15,7 +15,7 @@ the screenshot above has something to do with the demo.mp4 file, please watch th
 
 or
 
-```bash repeat.sh 15 "bash guess-wifi-password.sh -m {a..z}"```
+```bash repeat.sh 15 "bash guess-wifi-password.sh -mm"```
 
 will output "semmsemm" or whatever but the suffix will be preserved as m, for details see -help.
 
