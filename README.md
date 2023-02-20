@@ -5,7 +5,7 @@ Let's break into your neighbor's wifi security with the wordlist similar to the 
 # Screenshot 
 ![preview](./demo_1.jpg)
 
-![demo-video](https://asciinema.org/a/osu5Su83GhmpsPmW1jD2zmL1L)
+[![asciicast](https://asciinema.org/a/561147.svg)](https://asciinema.org/a/561147)
 
 the screenshot above has something to do with the demo.mp4 file, please watch the video.
 
