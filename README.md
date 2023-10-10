@@ -22,9 +22,10 @@ or with combine
 A one-line command that generates an unduplicated random password with a progress bar (pv) to make it interactive
 
 ```
-bash repeat.sh 100 "bash guess-wifi-password.sh -vv" | grep "e" | sort -u | pv -l -s 16 -p -e -t -i 0.1 -c -N "Tunggu"
+bash repeat.sh 100 "bash guess-wifi-password.sh -mm" | grep "e" | sort -u | pv -l -s 16 -p -e -t -i 0.1 -c -N "Tunggu"
 ```
-will output "semmsemm" or whatever but the suffix will be preserved as m, for details see -help.
+
+will produce the word "semmsemm" or whatever but the suffix will be retained as mm, for details see -help.
 
 Motivation :
 * Neighbor's wifi
