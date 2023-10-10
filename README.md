@@ -11,13 +11,15 @@ the screenshot above has something to do with the demo.mp4 file, please watch th
 
 # Usage :
 
+singgle command
+
 ```./guess-wifi-password -m {a..z}``` 
 
-or
+or with combine
 
 ```bash repeat.sh 15 "bash guess-wifi-password.sh -mm"```
 
-one liner with progressbar 
+A one-line command that generates an unduplicated random password with a progress bar (pv) to make it interactive
 
 ```
 bash repeat.sh 100 "bash guess-wifi-password.sh -vv" | grep "e" | sort -u | pv -l -s 16 -p -e -t -i 0.1 -c -N "Tunggu"
