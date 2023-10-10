@@ -38,3 +38,10 @@ Changelog:
 
 07/03/23
 + Change repo name
+
+10/10/23 [102]
++ Add gwp_wordlist.txt
++ Add v wordlist
++ Change readme.md
+  
+  
