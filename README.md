@@ -17,6 +17,11 @@ or
 
 ```bash repeat.sh 15 "bash guess-wifi-password.sh -mm"```
 
+one liner with progressbar 
+
+```
+bash repeat.sh 100 "bash guess-wifi-password.sh -vv" | grep "e" | sort -u | pv -l -s 16 -p -e -t -i 0.1 -c -N "Tunggu"
+```
 will output "semmsemm" or whatever but the suffix will be preserved as m, for details see -help.
 
 Motivation :
