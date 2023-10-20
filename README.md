@@ -50,12 +50,17 @@ Changelog:
 + Add script repeat.sh
 + Fix bug
 
-07/03/23
+07/03/23 [101]
 + Change repo name
 
 10/10/23 [102]
 + Add gwp_wordlist.txt
 + Add v wordlist
 + Change readme.md
+
+21/10/23 [103]
++ Add c wordlist
++ New file "gwp_interactive.sh"
++ Change algorithm to modular
   
   
