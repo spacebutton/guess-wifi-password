@@ -66,9 +66,9 @@ while getopts ":${GWP_WORDLIST[0]}:${GWP_WORDLIST[1]}:${GWP_WORDLIST[2]}:${GWP_W
 	        echo "$mm${mm}"; exit 0;;
 	${GWP_WORDLIST[2]}) declare ${GWP_WORDLIST[2]}n=$(echo "$(cons_rand)$(voc_rand)${15:-$OPTARG}n")
 		echo "$nn${nn}"; exit 0;;
-  ${GWP_WORDLIST[3]}) declare ${GWP_WORDLIST[3]}v=$(echo "$(cons_rand)$(voc_rand)${23:-$OPTARG}v")
-    echo "$vv${vv}"; exit 0;;
-    ## Add here yours option 
+        ${GWP_WORDLIST[3]}) declare ${GWP_WORDLIST[3]}v=$(echo "$(cons_rand)$(voc_rand)${23:-$OPTARG}v")
+                echo "$vv${vv}"; exit 0;;
+              ## Add here yours option 
 	?) echo "$0: options not recognized! or require more arguments after -$OPTARG";
     echo "$(usage)"; exit 1;;
 	esac
