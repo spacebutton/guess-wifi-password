@@ -55,7 +55,7 @@ local vocal=("a" "e" "i" "u" "o")
 echo 
 # index start from l = 0 not a = 0
 
-while getopts ":${GWP_WORDLIST[0]}:${GWP_WORDLIST[1]}:${GWP_WORDLIST[2]}:${GWP_WORDLIST[3]}:" flag
+while getopts ":${GWP_WORDLIST[0]}:${GWP_WORDLIST[1]}:${GWP_WORDLIST[2]}:${GWP_WORDLIST[3]}:${GWP_WORDLIST[4]}:" flag
   # Add yours arrays value if any
  do
 	case "$flag" in
@@ -68,7 +68,9 @@ while getopts ":${GWP_WORDLIST[0]}:${GWP_WORDLIST[1]}:${GWP_WORDLIST[2]}:${GWP_W
 		echo "$nn${nn}"; exit 0;;
         ${GWP_WORDLIST[3]}) declare ${GWP_WORDLIST[3]}v=$(echo "$(cons_rand)$(voc_rand)${23:-$OPTARG}v")
                 echo "$vv${vv}"; exit 0;;
-              ## Add here yours option 
+	${GWP_WORDLIST[4]}) declare ${GWP_WORDLIST[4]}c=$(echo "$(cons_rand)$(voc_rand)${4:-$OPTARG}c")
+                echo "$cc${cc}"; exit 0;;
+	      ## Add here yours option 
 	?) echo "$0: options not recognized! or require more arguments after -$OPTARG";
     echo "$(usage)"; exit 1;;
 	esac
