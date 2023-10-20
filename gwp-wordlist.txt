@@ -1,1 +1,1 @@
-GWP_WORDLIST=(l m n v)
+GWP_WORDLIST=(l m n v c)
