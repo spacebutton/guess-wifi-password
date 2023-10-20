@@ -15,6 +15,10 @@ the screenshot above has something to do with the demo.mp4 file, please watch th
 2. pick
 3. sort
 4. grep
+5. shuf
+6. fold
+7. sed
+8. basename, dirname
 
 # Usage :
 
