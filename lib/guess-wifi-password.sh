@@ -4,8 +4,10 @@
 # Copyright (c) 2023 t.me/space_button
 # License MIT
 
-# latest Tuesday, October 10, 2023 at 18:09
-#+ Add v wordlist
+# latest Tuesday, October 21, 2023 at 04:40
+#+ Add c wordlist
+#+ Change Algorithm to modular
+#+ Add new file "gwp_interactive.sh"
 
 
 #  set -xv #unhash this for debug
