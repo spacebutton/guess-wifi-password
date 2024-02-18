@@ -26,7 +26,7 @@ or with combine
 A one-line command that generates an unduplicated random password with a progress bar (pv) to make it interactive
 
 ```sh
-bash gwp_interactive.sh m
+bash gwp.sh m
 ```
 
 will produce the word "semmsemm" or whatever but the suffix will be retained as mm, for details see -help.
