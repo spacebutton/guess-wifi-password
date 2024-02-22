@@ -29,6 +29,7 @@ A one-line command that generates an unduplicated random password with a progres
 bash gwp.sh m e
 ```
 *by default value is e
+
 will produce the word "semmsemm" or whatever but the suffix will be retained as mm, for details see -help.
 
 Motivation :
