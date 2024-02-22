@@ -55,5 +55,9 @@ Changelog:
 + Add c wordlist
 + New file "gwp_interactive.sh"
 + Change algorithm to modular
-  
+
+20/02/24 [104]
++ Add feature Dynamic conditional (arguments according to the registered wordlist array)
++ Changes requirement from pick to fzf
++ Small changes
   
