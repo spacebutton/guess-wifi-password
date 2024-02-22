@@ -26,9 +26,9 @@ or with combine
 A one-line command that generates an unduplicated random password with a progress bar (pv) to make it interactive
 
 ```sh
-bash gwp.sh m
+bash gwp.sh m e
 ```
-
+*by default value is e
 will produce the word "semmsemm" or whatever but the suffix will be retained as mm, for details see -help.
 
 Motivation :
