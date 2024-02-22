@@ -26,8 +26,9 @@ or with combine
 A one-line command that generates an unduplicated random password with a progress bar (pv) to make it interactive
 
 ```sh
-bash gwp.sh m
+bash gwp.sh m e
 ```
+*by default value is e
 
 will produce the word "semmsemm" or whatever but the suffix will be retained as mm, for details see -help.
 
@@ -55,5 +56,9 @@ Changelog:
 + Add c wordlist
 + New file "gwp_interactive.sh"
 + Change algorithm to modular
-  
+
+20/02/24 [104]
++ Add feature Dynamic conditional (arguments according to the registered wordlist array)
++ Changes requirement from pick to fzf
++ Small changes
   
