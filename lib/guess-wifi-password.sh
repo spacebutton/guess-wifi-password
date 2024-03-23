@@ -14,6 +14,8 @@
 #+ Fix bug
 
 #  set -xv #unhash this for debug
+
+# Algorithm: dynamic-condition-response using "while getopts do and case esac"
 source ./gwp-wordlist.txt
 
 declare -a scriptn=("$(basename $0)" "$(dirname $0)")
