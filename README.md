@@ -1,4 +1,5 @@
 # guess-wifi-password.sh
+#dynamic-condition-response #bashproject
 
 Let's break into your neighbor's wifi security with the wordlist similar to the word "semmsemm" at random.
 
