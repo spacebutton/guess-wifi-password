@@ -1,4 +1,6 @@
 
+# Using Algoritm: dynamic-condition-response 
+
 clear
 arg1=$1
 arg2=${2:-'e'}
